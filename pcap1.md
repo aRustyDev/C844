@@ -121,13 +121,13 @@ The ssh daemon uses host keys to uniquely identify itself to connecting clients<
 [6]: https://github.com/digininja/DVWA
 
 [prot-hier]: img/wireshark-pcap1-protocol-hierarchy.PNG
-[ftp-anon]: img\wireshark-pcap1-ftp-anonymousLogin.PNG
-[dvwa]: img\wireshark-pcap1-vuln-dvwa.PNG
-[nmap-portscan]: img\wireshark-pcap1-nmap-port-scanning.PNG
-[nmap-hostscan-rq]: img\wireshark-pcap1-nmap-host-scanning.PNG
-[nmap-hostscan-rs]: img\wireshark-pcap1-nmap-host-scanning-responses.PNG
-[nmap-artifact]: img\wireshark-pcap1-nmap-artifact.PNG
-[mysql-failed]: img\wireshark-pcap1-mysql-failed.PNG
-[ldaps-failed]: img\wireshark-pcap1-LDAPS-failed.PNG
-[ssh-dup-1]: img\nmap-A-10-168-27-14.PNG
-[ssh-dup-2]: img\nmap-A-10-168-27-132.PNG
+[ftp-anon]: img/wireshark-pcap1-ftp-anonymousLogin.PNG
+[dvwa]: img/wireshark-pcap1-vuln-dvwa.PNG
+[nmap-portscan]: img/wireshark-pcap1-nmap-port-scanning.PNG
+[nmap-hostscan-rq]: img/wireshark-pcap1-nmap-host-scanning.PNG
+[nmap-hostscan-rs]: img/wireshark-pcap1-nmap-host-scanning-responses.PNG
+[nmap-artifact]: img/wireshark-pcap1-nmap-artifact.PNG
+[mysql-failed]: img/wireshark-pcap1-mysql-failed.PNG
+[ldaps-failed]: img/wireshark-pcap1-LDAPS-failed.PNG
+[ssh-dup-1]: img/nmap-A-10-168-27-14.PNG
+[ssh-dup-2]: img/nmap-A-10-168-27-132.PNG
