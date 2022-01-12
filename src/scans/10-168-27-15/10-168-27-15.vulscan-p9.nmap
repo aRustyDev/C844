@@ -1,0 +1,10 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-11 11:47 MST
+Nmap scan report for 10.168.27.15
+Host is up (0.00018s latency).
+
+PORT  STATE SERVICE  VERSION
+9/tcp open  discard?
+MAC Address: 00:15:5D:01:80:07 (Microsoft)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 516.56 seconds

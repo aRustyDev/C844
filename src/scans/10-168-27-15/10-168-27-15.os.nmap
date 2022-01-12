@@ -1,0 +1,28 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-11 11:36 MST
+Nmap scan report for 10.168.27.15
+Host is up (0.00045s latency).
+Not shown: 987 filtered ports
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+17/tcp    open  qotd
+19/tcp    open  chargen
+21/tcp    open  ftp
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+49154/tcp open  unknown
+49155/tcp open  unknown
+49158/tcp open  unknown
+MAC Address: 00:15:5D:01:80:07 (Microsoft)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 7|8|Vista|2008
+OS CPE: cpe:/o:microsoft:windows_7::-:professional cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_server_2008::sp1
+OS details: Microsoft Windows 7 Professional or Windows 8, Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.26 seconds

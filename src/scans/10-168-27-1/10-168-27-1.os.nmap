@@ -1,0 +1,9 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-11 12:00 MST
+Nmap scan report for 10.168.27.1
+Host is up (0.000012s latency).
+All 1000 scanned ports on 10.168.27.1 are closed
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.68 seconds

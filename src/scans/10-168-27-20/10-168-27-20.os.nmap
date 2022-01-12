@@ -1,0 +1,15 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-11 11:59 MST
+Nmap scan report for 10.168.27.20
+Host is up (0.000076s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 00:0C:29:97:E9:5D (VMware)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32
+OS details: Linux 2.6.32
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.69 seconds

@@ -1,0 +1,23 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-11 11:36 MST
+Nmap scan report for 10.168.27.15
+Host is up (0.00014s latency).
+Not shown: 65523 filtered ports
+PORT      STATE SERVICE      VERSION
+7/tcp     open  echo
+9/tcp     open  discard?
+13/tcp    open  daytime      Microsoft Windows USA daytime
+17/tcp    open  qotd         Windows qotd (English)
+19/tcp    open  chargen
+21/tcp    open  ftp          FileZilla ftpd
+80/tcp    open  http         Microsoft IIS httpd 8.5
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 00:15:5D:01:80:07 (Microsoft)
+Service Info: Host: WIN8-TARGET; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 620.72 seconds

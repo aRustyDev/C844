@@ -1,0 +1,10 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-11 11:28 MST
+Nmap scan report for 10.168.27.10
+Host is up (0.00024s latency).
+
+PORT    STATE SERVICE    VERSION
+636/tcp open  tcpwrapped
+MAC Address: 00:0C:29:97:57:58 (VMware)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds

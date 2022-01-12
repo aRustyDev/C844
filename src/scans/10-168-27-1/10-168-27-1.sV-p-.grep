@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Tue Jan 11 12:00:45 2022 as: nmap -sV -p0- --version-all -oG /root/scans/10-168-27-1/10-168-27-1.sV-p-.grep 10.168.27.1
+Host: 10.168.27.1 ()	Status: Up
+Host: 10.168.27.1 ()	Status: Up
+# Nmap done at Tue Jan 11 12:00:45 2022 -- 1 IP address (1 host up) scanned in 0.82 seconds

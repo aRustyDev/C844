@@ -1,0 +1,12 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-11 11:35 MST
+Nmap scan report for 10.168.27.14
+Host is up (0.000059s latency).
+Not shown: 65534 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.5p1 Debian 6+squeeze5 (protocol 2.0)
+9090/tcp open  ssh     OpenSSH 5.5p1 Debian 6+squeeze5 (protocol 2.0)
+MAC Address: 00:0C:29:8E:0F:2C (VMware)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.29 seconds

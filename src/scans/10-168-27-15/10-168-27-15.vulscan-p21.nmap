@@ -1,0 +1,28 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-11 11:55 MST
+Nmap scan report for 10.168.27.15
+Host is up (0.00014s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     FileZilla ftpd
+| vulscan: cve.csv:
+| [CVE-2013-2761] The Schneider Electric M340 BMXNOE01xx and BMXP3420xx PLC modules allow remote authenticated users to cause a denial of service (module crash) via crafted FTP traffic, as demonstrated by the FileZilla FTP client.
+| [CVE-2009-0884] Buffer overflow in FileZilla Server before 0.9.31 allows remote attackers to cause a denial of service via unspecified vectors related to SSL/TLS packets.
+| [CVE-2007-2318] Multiple format string vulnerabilities in FileZilla before 2.2.32 allow remote attackers to execute arbitrary code via format string specifiers in (1) FTP server responses or (2) data sent by an FTP server.  NOTE: some of these details are obtained from third party information.
+| [CVE-2007-0317] Format string vulnerability in the LogMessage function in FileZilla before 3.0.0-beta5 allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via crafted arguments.  NOTE: some of these details are obtained from third party information.
+| [CVE-2007-0315] Multiple buffer overflows in FileZilla before 2.2.30a allow remote attackers to execute arbitrary code or cause a denial of service (application crash) via unspecified vectors related to (1) Options.cpp when storing settings in the registry, and (2) the transfer queue (QueueCtrl.cpp).  NOTE: some of these details are obtained from third party information.
+| [CVE-2006-6565] FileZilla Server before 0.9.22 allows remote attackers to cause a denial of service (crash) via a wildcard argument to the (1) LIST or (2) NLST commands, which results in a NULL pointer dereference, a different set of vectors than CVE-2006-6564.  NOTE: CVE analysis suggests that the problem might be due to a malformed PORT command.
+| [CVE-2006-6564] FileZilla Server before 0.9.22 allows remote attackers to cause a denial of service (crash) via a malformed argument to the STOR command, which results in a NULL pointer dereference.  NOTE: CVE analysis suggests that the problem might be due to a malformed PORT command.
+| [CVE-2006-4994] Multiple unquoted Windows search path vulnerabilities in Apache Friends XAMPP 1.5.2 might allow local users to gain privileges via a malicious program file in %SYSTEMDRIVE%, which is run when XAMPP attempts to execute (1) FileZillaServer.exe, (2) mysqld-nt.exe, (3) Perl.exe, or (4) xamppcontrol.exe with an unquoted "Program Files" pathname.
+| [CVE-2006-2403] Buffer overflow in FileZilla before 2.2.23 allows remote attackers to execute arbitrary commands via unknown attack vectors.
+| [CVE-2006-2173] Buffer overflow in FileZilla FTP Server 2.2.22 allows remote authenticated attackers to cause a denial of service and possibly execute arbitrary code via a long (1) PORT or (2) PASS followed by the MLSD command, or (2) the remote server interface, as demonstrated by the Infigo FTPStress Fuzzer.
+| [CVE-2005-3589] Buffer overflow in FileZilla Server Terminal 0.9.4d may allow remote attackers to cause a denial of service (terminal crash) via a long USER ftp command.
+| [CVE-2005-2898] ** DISPUTED ** NOTE: this issue has been disputed by the vendor.  FileZilla 2.2.14b and 2.2.15, and possibly earlier versions, when "Use secure mode" is disabled, uses a weak encryption scheme to store the user's password in the configuration settings file, which allows local users to obtain sensitive information.  NOTE: the vendor has disputed the issue, stating that "the problem is not a vulnerability at all, but infact a fundamental issue of every single program that can store passwords transparently."
+| [CVE-2005-0851] FileZilla FTP server before 0.9.6, when using MODE Z (zlib compression), allows remote attackers to cause a denial of service (infinite loop) via certain file uploads or directory listings.
+| [CVE-2005-0850] FileZilla FTP server before 0.9.6 allows remote attackers to cause a denial of service via a request for a filename containing an MS-DOS device name such as CON, NUL, COM1, LPT1, and others.
+| 
+|_
+MAC Address: 00:15:5D:01:80:07 (Microsoft)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.89 seconds

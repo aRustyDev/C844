@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Tue Jan 11 11:36:38 2022 as: nmap -sV -p0- --version-all -oG /root/scans/10-168-27-15/10-168-27-15.sV-p-.grep 10.168.27.15
+Host: 10.168.27.15 ()	Status: Up
+Host: 10.168.27.15 ()	Ports: 7/open/tcp//echo///, 9/open/tcp//discard?///, 13/open/tcp//daytime//Microsoft Windows USA daytime/, 17/open/tcp//qotd//Windows qotd (English)/, 19/open/tcp//chargen///, 21/open/tcp//ftp//FileZilla ftpd/, 80/open/tcp//http//Microsoft IIS httpd 8.5/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)/, 49154/open/tcp//msrpc//Microsoft Windows RPC/, 49155/open/tcp//msrpc//Microsoft Windows RPC/, 49158/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (65523)
+# Nmap done at Tue Jan 11 11:46:59 2022 -- 1 IP address (1 host up) scanned in 620.72 seconds

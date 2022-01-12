@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Tue Jan 11 11:59:40 2022 as: nmap -sV -p0- --version-all -oG /root/scans/10-168-27-132/10-168-27-132.sV-p-.grep 10.168.27.132
+Host: 10.168.27.132 ()	Status: Up
+Host: 10.168.27.132 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.5p1 Debian 6+squeeze5 (protocol 2.0)/, 9090/open/tcp//ssh//OpenSSH 5.5p1 Debian 6+squeeze5 (protocol 2.0)/	Ignored State: closed (65534)
+# Nmap done at Tue Jan 11 12:00:11 2022 -- 1 IP address (1 host up) scanned in 31.10 seconds

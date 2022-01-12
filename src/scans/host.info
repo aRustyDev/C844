@@ -1,0 +1,15 @@
+|-- [34m== Host Info ==(B[m
+|   |-- [36mUser(B[m
+|   |   |-- WhoAmI      : root
+|   |   |-- Who         : root     tty7         2022-01-11 11:21 (:0)
+|   |
+|   |-- [36mHost(B[m
+|   |   |-- Kernel      : Linux kali 5.10.0-kali9-amd64 #1 SMP Debian 5.10.46-4kali1 (2021-08-09) x86_64 GNU/Linux
+|   |   |-- Hostname    : kali
+|   |
+|   |-- [36mNetworking(B[m
+|   |   |-- Default GW  : 10.168.27.1
+|   |   |-- Internet GW : 10.0.0.1
+|   |   |-- Subnet      : 10.168.27.1/8
+|   |   |-- NameServer  : 10.0.0.1
+|   |
